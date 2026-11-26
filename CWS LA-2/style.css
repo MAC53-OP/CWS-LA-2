@@ -1,0 +1,49 @@
+.cart-bg-blur {
+  filter: blur(5px) brightness(0.65);
+  pointer-events: none;
+  user-select: none;
+}
+
+.cart-sheet {
+  background-color: #FBF6EE;
+  border-radius: 28px 28px 0 0;
+  min-height: 55%;
+  z-index: 10;
+}
+
+.cart-title-img {
+  height: 36px;
+  width: auto;
+}
+
+.cart-close-img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.cart-product-img {
+  width: 185px;
+  height: 175px;
+  object-fit: cover;
+}
+
+.cart-product-name {
+  font-size: 1rem;
+  color: #111;
+}
+
+.cart-checkout-btn {
+  background: url('images/Rectangle 3368.png') no-repeat center/100% 100%;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  width: 78%;
+  height: 52px;
+  border: none;
+}
+
+.cart-checkout-btn:hover {
+  opacity: 0.9;
+  color: #ffffff;
+}
